@@ -1,0 +1,48 @@
+#faixa{
+    background-color: rgb(0, 36, 145);
+    color: white;
+    padding:10px;
+    font-weight: bolder;
+}
+#descricao{
+    width: 100%;
+}
+#tempo{
+    display: inline-flex;
+}
+#tempo p{
+    margin:20px 0  2px 40px;
+}
+#conteinertempo{
+    margin:2px;
+
+}
+#inicio, #fim {
+    height: 30px;
+}
+#botao button{
+    right:50%;
+}
+form{
+    margin: 40px 300px;
+    border: 2px solid rgb(19, 31, 135);
+    padding:10px;
+}
+#parteTempo div{
+    display:flex;
+}
+#parteRepet{
+    
+    width: 59%;
+}
+.conteinerTempo{
+    display: grid;
+    height: 150px;
+    margin:10px 2px 10px 0px;
+    gap: 20px;
+    grid-template: repeat(4, 160px) / repeat(3,350px);
+}
+.box{
+    margin:5px;
+    background-color: blueviolet;
+}
