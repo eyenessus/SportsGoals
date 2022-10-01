@@ -1,5 +1,5 @@
 #faixa{
-    background-color: rgb(0, 36, 145);
+    background-color: rgb(79, 101, 169);
     color: white;
     padding:10px;
     font-weight: bolder;
@@ -25,7 +25,7 @@
 }
 form{
     margin: 40px 300px;
-    border: 2px solid rgb(19, 31, 135);
+    border: 2px solid rgb(79, 90, 188);
     padding:10px;
 }
 #parteTempo div{
@@ -45,4 +45,15 @@ form{
 .box{
     margin:5px;
     background-color: blueviolet;
+}
+#exit{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 96%;
+    bottom: 36px;
+    font-size: 1em;
+    font-weight: bolder;
+}
+#exit:hover{
+    cursor: pointer;
 }
