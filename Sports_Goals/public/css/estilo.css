@@ -1,0 +1,9 @@
+body{
+    background-image: url("/img/papeldeparede.jpg"); 
+    background-size: 80%;
+    background-repeat:center;
+    background-position: 80% 3% 50% top;
+}
+h1{
+    color:blue;
+}

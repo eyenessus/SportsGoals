@@ -12,7 +12,11 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\Http\Controllers\SportController;
+// importando controller de sport
 
-Route::get('/', function () { //url
-    return view('welcome'); //nome da view
+Route::get('/', [EventController::class, "Index"]);
+
+Route::get('/form', function () { //url
+    return view('form'); //nome da view
 });
