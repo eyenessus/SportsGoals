@@ -8,5 +8,6 @@
     </head>
     <body>
             <h1>Sports Goals</h1> <!-- titulo da pagina -->
+            <a href="/form"> ATIVIDADES</a>
     </body>
 </html>

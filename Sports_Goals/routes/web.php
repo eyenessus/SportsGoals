@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SportController;
 // importando controller de sport
 
-Route::get('/', [EventController::class, "Index"]);
+Route::get('/', [SportController::class, "Index"]);
 
 Route::get('/form', function () { //url
     return view('form'); //nome da view
