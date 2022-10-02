@@ -16,7 +16,7 @@
     <div class="container">
         <div class="d-flex justify-content-end">
             <button class="btn btn-primary m-2" id='agenda'>
-                <a href="/agenda"></a>AGENDA
+                <a href="/agenda" id='agenda1'>AGENDA</a>
             </button>
         </div>
         </div>
@@ -90,9 +90,6 @@
             </div>
 
         </form>
-       
-      
-       
     </main>
     <footer>
         <h2>Sports Goals Agenda - WiSpot</h2>

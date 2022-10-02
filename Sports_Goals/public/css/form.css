@@ -12,6 +12,7 @@ body{
     backdrop-filter: blur(2px);
     background-size: 16in 10in;
     height:auto;
+    overflow: hidden;
 }
 
 #titulo{
@@ -47,10 +48,10 @@ body{
     right:50%;
 }
 form{
-    margin: 20px 300px;
+    margin: 1px 300px 10px;
     border: 2px solid rgb(79, 90, 188);
     border-radius:8px;
-    padding:10px;
+    padding:5px;
     background-color:white;
 }
 
@@ -78,5 +79,13 @@ footer h2{
     border: 3px solid rgb(255, 255, 255);
     border-radius: 5px;
     color:rgb(255, 255, 255);
+    background-color: rgb(14, 65, 218);
+}
+#agenda1{
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
     background-color: rgb(14, 65, 218);
 }
