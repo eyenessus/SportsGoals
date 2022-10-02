@@ -1,6 +1,28 @@
+@font-face {
+    font-family:  "Emerson";
+    src: url("/fonts/emerson.ttf") format("truetype"); 
+}
+@font-face {
+    font-family: "Emerson2";
+    src: url("/fonts/emerson2.otf") format("truetype");
+}
+body{
+    background-image: url("/img/papeldeparede.jpg"); 
+    background-size: cover;
+    background-repeat:no-repeat;
+    backdrop-filter: blur(10px);
+    height:auto;
+}
+
+#titulo{
+    font-family: "Emerson";
+    color: white;
+    text-align: center;
+}
 #faixa{
     background-color: rgb(79, 101, 169);
     color: white;
+    border-radius: 5px;
     padding:10px;
     font-weight: bolder;
 }
@@ -26,26 +48,11 @@
 form{
     margin: 40px 300px;
     border: 2px solid rgb(79, 90, 188);
+    border-radius:8px;
     padding:10px;
+    background-color:white;
 }
-#parteTempo div{
-    display:flex;
-}
-#parteRepet{
-    
-    width: 59%;
-}
-.conteinerTempo{
-    display: grid;
-    height: 150px;
-    margin:10px 2px 10px 0px;
-    gap: 20px;
-    grid-template: repeat(4, 160px) / repeat(3,350px);
-}
-.box{
-    margin:5px;
-    background-color: blueviolet;
-}
+
 #exit{
     color: rgb(255, 255, 255);
     position: relative;
@@ -56,4 +63,11 @@ form{
 }
 #exit:hover{
     cursor: pointer;
+}
+footer h2{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 85px;
+    font-family: "Emerson2";
 }
