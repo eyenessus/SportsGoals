@@ -8,6 +8,9 @@
     </head>
     <body>
             <h1>Sports Goals</h1> <!-- titulo da pagina -->
-            <a href="/form"> ATIVIDADES</a>
+            
+            <button id="botao">
+            <a href="/form"> ENTRAR</a>
+            </button>
     </body>
 </html>
