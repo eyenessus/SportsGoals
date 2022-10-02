@@ -24,3 +24,4 @@ Route::get('/form', function () { //url
 Route::get('/agenda', function () { //url
     return view('calendario'); //nome da view
 });
+Route::post('/atividades',[SportController::class, "store"]);

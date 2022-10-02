@@ -21,7 +21,8 @@
         </div>
         </div>
     <main>
-        <form action="" method="POST" name="atividades">
+        <form action="/atividades" method="POST" name="atividades">
+            @csrf
             <div class="container">
                 <h6 id="faixa">Criação de atividade esportiva</h6>
                 <h6 id="exit"> X </h6>
@@ -61,14 +62,14 @@
 
                     <div class="col">
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="norepet" id="norepet" value="0" checked>
+                            <input class="form-check-input" type="radio" name="repetir" id="repetir" value="0" checked>
                             <label class="form-check-label" for="norepet">
                                 Não se repete
                             </label>
                         </div>
 
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="repetir" id="repetir" value="1" checked>
+                            <input class="form-check-input" type="radio" name="repetir" id="repetir" value="1">
                             <label class="form-check-label" for="repetir">
                                 Repetir
                             </label>
