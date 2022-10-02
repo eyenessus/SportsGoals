@@ -22,13 +22,13 @@ h1{
     padding: 30px;
     background-color: blue;
     border-radius: 10px;
-    border: 1px solid rgb(21, 92, 124);
+    border-style: unset;
 }
 #botao:hover{
     border-color: rgb(0, 166, 255);
     font-size: 20px;
     background-color: rgb(15, 15, 125);
-    border:rgb(15, 15, 125) solid;
+    border:rgb(4, 4, 255) solid;
     border-style: inset;
 }
 #botao a {
