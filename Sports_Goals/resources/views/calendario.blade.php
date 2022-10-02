@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
       center: 'title',
       right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
     },
-    
+    locale:'pt-br',
     navLinks: true, // can click day/week names to navigate views
     editable: true,
     selectable: true,
