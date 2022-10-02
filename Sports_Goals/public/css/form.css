@@ -7,7 +7,7 @@
     src: url("/fonts/emerson2.otf") format("truetype");
 }
 body{
-    background-image: url("/img/form"); 
+    background-image: url("/img/form.jpg"); 
     background-repeat:no-repeat;
     backdrop-filter: blur(2px);
     background-size: 16in 10in;
