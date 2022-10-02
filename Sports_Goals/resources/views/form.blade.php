@@ -28,7 +28,7 @@
 
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Evento</label>
-                    <input type="text" class="form-control" id="evento" aria-describedby="emailHelp">
+                    <input type="text" class="form-control" id="nomeEvento" aria-describedby="emailHelp">
                 </div>
 
                 <div class="mb-3">
@@ -50,7 +50,7 @@
                         <div class="row mt-2 mb-3">
                             <div class="col">
                                 <label for="">Início:</label>
-                                <input type="time" class="w-10 form-control" id="termino">
+                                <input type="time" class="w-10 form-control" id="inicio">
                             </div>
                             <div class="col">
                                 <label for="">Término:</label>
@@ -61,15 +61,15 @@
 
                     <div class="col">
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                            <label class="form-check-label" for="exampleRadios1">
+                            <input class="form-check-input" type="radio" name="norepet" id="norepet" value="0" checked>
+                            <label class="form-check-label" for="norepet">
                                 Não se repete
                             </label>
                         </div>
 
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
-                            <label class="form-check-label" for="exampleRadios2">
+                            <input class="form-check-input" type="radio" name="repetir" id="repetir" value="1" checked>
+                            <label class="form-check-label" for="repetir">
                                 Repetir
                             </label>
                         </div>
