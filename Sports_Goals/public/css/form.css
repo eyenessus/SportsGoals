@@ -7,7 +7,7 @@
     src: url("/fonts/emerson2.otf") format("truetype");
 }
 body{
-    background-image: url("https://img.freepik.com/fotos-premium/cena-de-futebol-no-estadio-com-close-up-de-uma-chuteira-de-futebol_207634-5556.jpg?w=2000"); 
+    background-image: url("/img/form"); 
     background-repeat:no-repeat;
     backdrop-filter: blur(2px);
     background-size: 16in 10in;
