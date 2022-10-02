@@ -2,7 +2,7 @@
 var botaofechar = document.getElementById("exit");
 
 const voltar = (()=>{
-    window.history.back();
+    window.location.href = "/";
 })
 
 botaofechar.onclick = voltar;
