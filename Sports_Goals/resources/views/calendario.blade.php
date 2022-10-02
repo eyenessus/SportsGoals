@@ -10,7 +10,13 @@
     <script src="/js/calendario.js"></script>
 </head>
 <body>
-
+<div class="container">
+        <div class="d-flex justify-content-end">
+            <button class="btn btn-primary m-2" id="botaovoltar">
+                <a href="/form"> < VOLTAR</a>
+            </button>
+        </div>
+        </div>
 <div id='calendar'></div>
 
 </body>
