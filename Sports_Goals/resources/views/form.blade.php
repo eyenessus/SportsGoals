@@ -74,8 +74,8 @@
                             </label>
                         </div>
                         <div class="col-4">
-                            <label for="customRange2" class="form-label">Intervalo de semanas: 1</label>
-                            <input type="range" class="form-range" max="3" id="customRange2">
+                            <label for="customRange2" class="form-label">Intervalo de semanas: <span id="valor">1</span></label>
+                            <input type="range" class="form-range" min="1" max="3" id="nivelintervalo">
                         </div>
                     </div>
 
@@ -96,8 +96,8 @@
     </footer>
     <script src="/js/js.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    <script src="/jquery/jquery.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="/jquery/main.js" defer></script>
+   <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 </body>
 
 </html>
