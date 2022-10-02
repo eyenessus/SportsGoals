@@ -11,8 +11,15 @@
 
 </head>
 
-<body >
+<body>
     <h1 id="titulo">Atividades Esportivas</h1>
+    <div class="container">
+        <div class="d-flex justify-content-end">
+            <button class="btn btn-primary m-2" id='agenda'>
+                <a href="/agenda"></a>AGENDA
+            </button>
+        </div>
+        </div>
     <main>
         <form action="" method="POST" name="atividades">
             <div class="container">
@@ -83,6 +90,9 @@
             </div>
 
         </form>
+       
+      
+       
     </main>
     <footer>
         <h2>Sports Goals Agenda - WiSpot</h2>

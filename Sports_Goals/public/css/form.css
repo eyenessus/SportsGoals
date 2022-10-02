@@ -7,10 +7,10 @@
     src: url("/fonts/emerson2.otf") format("truetype");
 }
 body{
-    background-image: url("/img/papeldeparede.jpg"); 
-    background-size: cover;
+    background-image: url("https://img.freepik.com/fotos-premium/cena-de-futebol-no-estadio-com-close-up-de-uma-chuteira-de-futebol_207634-5556.jpg?w=2000"); 
     background-repeat:no-repeat;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
+    background-size: 16in 10in;
     height:auto;
 }
 
@@ -18,6 +18,7 @@ body{
     font-family: "Emerson";
     color: white;
     text-align: center;
+    text-shadow: 9px 5px 20px black;
 }
 #faixa{
     background-color: rgb(79, 101, 169);
@@ -46,7 +47,7 @@ body{
     right:50%;
 }
 form{
-    margin: 40px 300px;
+    margin: 20px 300px;
     border: 2px solid rgb(79, 90, 188);
     border-radius:8px;
     padding:10px;
@@ -70,4 +71,12 @@ footer h2{
     text-align: center;
     margin-top: 85px;
     font-family: "Emerson2";
+}
+#agenda{
+    font-size: 20px;
+    font-weight: bolder;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(14, 65, 218);
 }
