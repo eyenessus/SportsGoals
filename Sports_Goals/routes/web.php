@@ -20,3 +20,7 @@ Route::get('/', [SportController::class, "Index"]);
 Route::get('/form', function () { //url
     return view('form'); //nome da view
 });
+
+Route::get('/agenda', function () { //url
+    return view('calendario'); //nome da view
+});
