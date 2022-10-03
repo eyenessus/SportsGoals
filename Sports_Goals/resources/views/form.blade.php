@@ -22,15 +22,15 @@
         </div>
     <main>
     
-        <form action="/atividades" method="post">
+        <form action="/atividades" method="post" id="atividades">
             @csrf
             <div class="container">
                 <h6 id="faixa">Criação de atividade esportiva</h6>
                 <h6 id="exit"> X </h6>
 
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Evento</label>
-                    <input type="text" class="form-control" name="nomeevento" id="nomeevento" aria-describedby="emailHelp">
+                    <label for="nomeevento" class="form-label">Evento</label>
+                    <input type="text" class="form-control" name="nomeevento" id="nomeevento">
                 </div>
 
                 <div class="mb-3">

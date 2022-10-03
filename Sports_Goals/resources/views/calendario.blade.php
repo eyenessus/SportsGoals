@@ -1,5 +1,6 @@
+
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='pt-br'>
   <head>
     <meta charset='utf-8' />
     <link href='fullcalendar/main.css' rel='stylesheet' />  
@@ -20,4 +21,40 @@
 <div id='calendar'></div>
 
 </body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+  
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      defaultDate: Date(),
+      initialView: 'timeGridWeek',
+      nowIndicator: true,
+      headerToolbar: {
+        right: 'prev,next today',
+        left: 'title',
+        center: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
+      },
+      eventSources: {
+        url: 'list_eventos',
+        color: 'yellow',
+        textColor: 'black',
+      },
+      locale:'pt-br',
+      navLinks: true, // can click day/week names to navigate views
+      editable: true,
+      selectable: true,
+      selectMirror: true,
+      dayMaxEvents: true, // allow "more" link when too many events
+      events: 'list_eventos.php',
+    extraParams: function() {
+      return {
+        cachebuster: new Date().valueOf()
+      };
+    }
+    });
+  
+    calendar.render();
+  });
+  
+</script>
 </html>
