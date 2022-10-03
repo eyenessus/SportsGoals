@@ -21,7 +21,8 @@
         </div>
         </div>
     <main>
-        <form action="/atividades" method="POST" name="atividades">
+    
+        <form action="/atividades" method="post">
             @csrf
             <div class="container">
                 <h6 id="faixa">Criação de atividade esportiva</h6>
@@ -29,13 +30,13 @@
 
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Evento</label>
-                    <input type="text" class="form-control" id="nomeEvento" aria-describedby="emailHelp">
+                    <input type="text" class="form-control" name="nomeevento" id="nomeevento" aria-describedby="emailHelp">
                 </div>
 
                 <div class="mb-3">
                     <label for="descricao" class="form-label">Descrição</label>
                     <br>
-                    <textarea rows="5" cols="80" id="descricao" style="height: 120px;"></textarea>
+                    <textarea rows="5" cols="80" id="descricao" style="height: 120px;" name="descricao"></textarea>
                 </div>
             </div>
 
@@ -44,22 +45,21 @@
                     <div class="col-4">
                         <div class="col">
                             <label for="data">De:</label>
-                            <input type="date" class="w-100 form-control " id="data">
+                            <input type="date" class="w-100 form-control " id="data" name="data">
                         </div>
 
 
                         <div class="row mt-2 mb-3">
                             <div class="col">
                                 <label for="">Início:</label>
-                                <input type="time" class="w-10 form-control" id="inicio">
+                                <input type="time" class="w-10 form-control" name="inicio" id="inicio">
                             </div>
                             <div class="col">
                                 <label for="">Término:</label>
-                                <input type="time" class="w-10 form-control" id="termino">
+                                <input type="time" class="w-10 form-control" name="fim" id="fim">
                             </div>
                         </div>
                     </div>
-
                     <div class="col">
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="repetir" id="repetir" value="0" checked>
@@ -75,8 +75,8 @@
                             </label>
                         </div>
                         <div class="col-4">
-                            <label for="customRange2" class="form-label">Intervalo de semanas: <span id="valor">1</span></label>
-                            <input type="range" class="form-range" min="1" max="3" id="nivelintervalo">
+                            <label for="customRange2" class="form-label">Intervalo de semanas: <span id="valor">0</span></label>
+                            <input type="range" class="form-range" min="1" max="3" id="nivelintervalo" name="intervalo">
                         </div>
                     </div>
 

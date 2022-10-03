@@ -13,15 +13,15 @@ class CreateAtividadesTable extends Migration
      */
     public function up()
     {
-        Schema::create('atividades', function (Blueprint $table) {
+        Schema::create('sports_goals', function (Blueprint $table) {
             $table->id();
-            $table->string('nomeEvento');
+            $table->string('nomeevento');
             $table->text('descricao');
             $table->date('data');
             $table->time('inicio');
             $table->time('fim');
-            $table->boolean('repeticao');
-            $table->integer('intervalo');
+            $table->integer('repetir');
+            $table->integer('intervalo') ->nullable();
             $table->timestamps();
         });
     }

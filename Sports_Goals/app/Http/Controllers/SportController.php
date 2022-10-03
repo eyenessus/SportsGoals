@@ -11,14 +11,14 @@ class SportController extends Controller
     }
     public function store(Request $request){
         $variavel = new SportsGoals;
-        $variavel -> nomeEvento = $request-> NomeEvento;
+        $variavel -> nomeevento = $request-> nomeevento;
         $variavel -> descricao = $request-> descricao;
         $variavel -> data = $request-> data;
         $variavel -> inicio = $request-> inicio;
         $variavel -> fim = $request-> fim;
-        $variavel -> repeticao = $request-> repeticao;
+        $variavel -> repetir = $request-> repetir;
         $variavel -> intervalo = $request-> intervalo;
         $variavel-> save();
-        return redirect('/');
+        return redirect('/agenda');
     }
 }
