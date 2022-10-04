@@ -32,7 +32,7 @@
       headerToolbar: {
         right: 'prev,next today',
         left: 'title',
-        center: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
+        center: 'dayGridMonth,timeGridWeek'
       },
       eventSources: {
         url: 'list_eventos',
@@ -46,6 +46,8 @@
       selectMirror: true,
       dayMaxEvents: true, // allow "more" link when too many events
       events: 'list_eventos.php',
+      color: 'yellow',   // an option!
+      textColor: 'black',
     extraParams: function() {
       return {
         cachebuster: new Date().valueOf()
