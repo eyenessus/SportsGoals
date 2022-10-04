@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateAtividadesTable extends Migration
+class CreateEventsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,13 @@ class CreateAtividadesTable extends Migration
      */
     public function up()
     {
-        Schema::create('sports_goals', function (Blueprint $table) {
+        Schema::create('events', function (Blueprint $table) {
             $table->id();
-            $table->string('nomeevento');
+            $table->string('title');
+            $table->string('color')->default('ffff00');
             $table->text('descricao');
-            $table->date('data');
+            $table->dateTime('start');
+            $table->datetime('end')-> nullable();
             $table->time('inicio');
             $table->time('fim');
             $table->integer('repetir');
@@ -33,6 +35,6 @@ class CreateAtividadesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('atividades');
+        Schema::dropIfExists('events');
     }
 }

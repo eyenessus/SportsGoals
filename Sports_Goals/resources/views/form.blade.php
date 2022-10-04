@@ -22,15 +22,15 @@
         </div>
     <main>
     
-        <form action="/atividades" method="post" id="atividades">
+        <form action="/atividades" method="POST" id="atividades">
             @csrf
             <div class="container">
                 <h6 id="faixa">Criação de atividade esportiva</h6>
                 <h6 id="exit"> X </h6>
 
                 <div class="mb-3">
-                    <label for="nomeevento" class="form-label">Evento</label>
-                    <input type="text" class="form-control" name="nomeevento" id="nomeevento">
+                    <label for="title" class="form-label">Evento</label>
+                    <input type="text" class="form-control" name="title" id="title">
                 </div>
 
                 <div class="mb-3">
@@ -45,7 +45,7 @@
                     <div class="col-4">
                         <div class="col">
                             <label for="data">De:</label>
-                            <input type="date" class="w-100 form-control " id="data" name="data">
+                            <input type="date" class="w-100 form-control " id="start" name="start">
                         </div>
 
 
