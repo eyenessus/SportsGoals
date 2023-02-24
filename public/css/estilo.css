@@ -1,0 +1,55 @@
+@font-face {
+    font-family:  "Emerson";
+    src: url("/fonts/emerson.ttf") format("truetype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+h1{
+    
+  font-family: "Emerson", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "Lucida Sans Unicode";
+  text-shadow: 10px 10px 20px rgb(33, 0, 249);
+}
+.descricao{
+    font-family: "Emerson", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "Lucida Sans Unicode";
+    font-family: 'Tilt Neon', cursive;
+}
+
+
+
+@media only screen and (min-width: 1000px){
+  #botao{
+    padding: 1% 5%;
+  }
+  body{
+    background-image: url("/img/papeldeparede.jpg"); 
+    background-size:cover !important;
+}
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1000px){
+   
+    #botao{
+      padding: 1% 5%;
+      float: bottom;
+    }
+
+    body{
+        background-image: url("/img/papeldeparede.jpg"); 
+        background-size:cover ;
+    }
+  }
+=======
+body{
+    background-image: url("/img/papeldeparede.jpg"); 
+    background-size: cover !important;
+    background-repeat:center;
+    background-position: 20% 10% 50% ;
+    background-repeat: no-repeat;
+}
+h1{
+    
+    font-family: "Emerson", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "Lucida Sans Unicode";
+    text-shadow: 10px 10px 20px rgb(33, 0, 249);
+}
+>>>>>>> 519571ecbd2e421a6fc713a9b7455396b6c82293

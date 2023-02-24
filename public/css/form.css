@@ -1,0 +1,25 @@
+@font-face {
+    font-family:  "Emerson";
+    src: url("/fonts/emerson.ttf") format("truetype"); 
+}
+@font-face {
+    font-family: "Emerson2";
+    src: url("/fonts/emerson2.otf") format("truetype");
+}
+h3{
+    font-family: 'Emerson';
+}
+body{
+    background-image: url("/img/form.jpg"); 
+    background-repeat:no-repeat;
+    background-position: 20% 10% 50% ;
+    backdrop-filter: blur(2px);
+    background-size: cover !important;
+}
+
+#titulo{
+    font-family: "Emerson";
+    color: white;
+    text-align: center;
+    text-shadow: 9px 5px 20px black;
+}
